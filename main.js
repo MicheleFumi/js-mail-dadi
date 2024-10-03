@@ -52,9 +52,14 @@ const list= [                                      //CREO LA LISTA
 
 // GIOCO DEI DADI
 
+
+
+ //HO AGGIUNTO UN PICCOLO SCRIPT PER "GIOCARCI"
+
+// let dado_user = Number(prompt("inserisci un numero da 1 a 6 compresi")); 
+
 // GENERO UN DADO VIRTUALE RANDOMICO DA 0 A 6 CON ARROTONDAMENTO PER ECCESSO, MA SICCOME LA FORMULA PRENDE DA 0 A 6 AGGIUNGO UN +1 PER RIMUOVERE LO ZERO
-/* 
-// let dado_user = Number(prompt("inserisci un numero da 1 a 6 compresi"));  //HO AGGIUNTO UN PICCOLO SCRIPT PER "GIOCARCI"
+
 let dado_user = Math.floor(Math.random() * 6) + 1 
 let dado_cpu = Math.floor(Math.random() * 6) + 1
 
@@ -74,4 +79,4 @@ if (dado_user > dado_cpu){
     console.log("il dado giocatore " + dado_user);
     console.log("il dado computer " + dado_cpu);
 }
- */
+ 
