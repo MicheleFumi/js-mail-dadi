@@ -25,9 +25,9 @@ Buon divertimento e confermate lettura come al solito
 
 // ESERCIZIO MAIL
 
-let user_mail= prompt("inserisci la tua Email")
+/* let user_mail= prompt("inserisci la tua Email") //CREO IL PROMPT PER LA VARIABILE
 
-const list= [
+const list= [                                      //CREO LA LISTA
     "marcomazzoli@gmail.com",
     "fabioalisei@gmail.com",
     "letiziapuccioni@gmail.com",
@@ -37,9 +37,9 @@ const list= [
 
  
  
-    let input_mail= list.includes(user_mail)
+    let input_mail= list.includes(user_mail)      //FACCIO CONTROLLARE CHE NELLA LISTA SIA INCLUSO IL PROMPT
 
-    if (input_mail){
+    if (input_mail){                              // CREO LA CONDIZIONE PER CUI SE E' PRESENTE MI LOGGA UN TESTO POSITIVO, ALTRIMENTI UNO NEGATIVO
         console.log("Email validata");
     
         
@@ -47,8 +47,10 @@ const list= [
         console.log("Email non riconosciuta, riprovare");
         
     }
+     */
     
-    
+
+
  
 
 
