@@ -36,10 +36,10 @@ const list= [
 ]
 
  
- for (let i = 0; i < list.length; i++) {
-    let input_mail= user_mail.includes(list[i])
+ 
+    let input_mail= list.includes(user_mail)
 
-    if (input_mail===true){
+    if (input_mail){
         console.log("Email validata");
     
         
@@ -49,6 +49,6 @@ const list= [
     }
     
     
- }
+ 
 
 
