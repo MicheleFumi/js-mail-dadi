@@ -25,7 +25,7 @@ Buon divertimento e confermate lettura come al solito
 
 // ESERCIZIO MAIL
 
-/* let user_mail= prompt("inserisci la tua Email") //CREO IL PROMPT PER LA VARIABILE
+let user_mail= prompt("inserisci la tua Email");    //CREO LA VARIABILE DA PROMPTARE
 
 const list= [                                      //CREO LA LISTA
     "marcomazzoli@gmail.com",
@@ -44,17 +44,20 @@ const list= [                                      //CREO LA LISTA
     
         
     } else {
-        console.log("Email non riconosciuta, riprovare");
+        alert("Email non riconosciuta, riprovare");  //CREO UN ALERT CHE MI AVVISI  CHE NON E' GIUSTA
         
     }
-     */
+    
     
 
 // GIOCO DEI DADI
 
 // GENERO UN DADO VIRTUALE RANDOMICO DA 0 A 6 CON ARROTONDAMENTO PER ECCESSO, MA SICCOME LA FORMULA PRENDE DA 0 A 6 AGGIUNGO UN +1 PER RIMUOVERE LO ZERO
+/* 
+// let dado_user = Number(prompt("inserisci un numero da 1 a 6 compresi"));  //HO AGGIUNTO UN PICCOLO SCRIPT PER "GIOCARCI"
 let dado_user = Math.floor(Math.random() * 6) + 1 
 let dado_cpu = Math.floor(Math.random() * 6) + 1
+
 //CREO LE VARIABILI DI VITTORIA PAREGGIO E PERDITA DI PERSONA E CPU
 
 if (dado_user > dado_cpu){
@@ -71,3 +74,4 @@ if (dado_user > dado_cpu){
     console.log("il dado giocatore " + dado_user);
     console.log("il dado computer " + dado_cpu);
 }
+ */
