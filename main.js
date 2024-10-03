@@ -50,7 +50,24 @@ const list= [                                      //CREO LA LISTA
      */
     
 
+// GIOCO DEI DADI
 
- 
+// GENERO UN DADO VIRTUALE RANDOMICO DA 0 A 6 CON ARROTONDAMENTO PER ECCESSO, MA SICCOME LA FORMULA PRENDE DA 0 A 6 AGGIUNGO UN +1 PER RIMUOVERE LO ZERO
+let dado_user = Math.floor(Math.random() * 6) + 1 
+let dado_cpu = Math.floor(Math.random() * 6) + 1
+//CREO LE VARIABILI DI VITTORIA PAREGGIO E PERDITA DI PERSONA E CPU
 
-
+if (dado_user > dado_cpu){
+    console.log("il giocatore ha vinto!");
+    console.log("il dado giocatore " + dado_user);
+    console.log("il dado computer " + dado_cpu);
+    
+} else if(dado_user == dado_cpu){
+    console.log("stallo alla messicana!!!");
+    console.log("il dado giocatore " + dado_user);
+    console.log("il dado computer " + dado_cpu);
+}else {
+    console.log("il computer ha vinto!");
+    console.log("il dado giocatore " + dado_user);
+    console.log("il dado computer " + dado_cpu);
+}
