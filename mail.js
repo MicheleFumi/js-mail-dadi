@@ -33,7 +33,8 @@ const list= [                                      //CREO LA LISTA
     let user_mail= list.includes(input_mail)      //FACCIO CONTROLLARE CHE NELLA LISTA SIA INCLUSO IL PROMPT
 
     if (user_mail){                              // CREO LA CONDIZIONE PER CUI SE E' PRESENTE MI LOGGA UN TESTO POSITIVO, ALTRIMENTI UNO NEGATIVO
-        console.log("Email validata");
+        alert("Email validata");
+       
     
         
     } else {
