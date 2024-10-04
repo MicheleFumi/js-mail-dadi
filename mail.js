@@ -30,9 +30,9 @@ const list= [                                      //CREO LA LISTA
 
  
  
-    let user_mail= list.includes(input_mail)      //FACCIO CONTROLLARE CHE NELLA LISTA SIA INCLUSO IL PROMPT
+    let mail_to_verify= list.includes(input_mail)      //FACCIO CONTROLLARE CHE NELLA LISTA SIA INCLUSO IL PROMPT
 
-    if (user_mail){                              // CREO LA CONDIZIONE PER CUI SE E' PRESENTE MI LOGGA UN TESTO POSITIVO, ALTRIMENTI UNO NEGATIVO
+    if (mail_to_verify){                              // CREO LA CONDIZIONE PER CUI SE E' PRESENTE MI LOGGA UN TESTO POSITIVO, ALTRIMENTI UNO NEGATIVO
         alert("Email validata");
        
     
